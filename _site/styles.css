@@ -59,6 +59,12 @@ h2 {
   --bs-navbar-brand-color: var(--ocean-100);
   --bs-navbar-brand-hover-color: #FFFFFF;
 }
+/* Site name on the left of the navbar: larger and in the heading font */
+#quarto-header .navbar-brand .navbar-title {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
 
 /* Search and tool icons on the right of the navbar */
 #quarto-header .quarto-navigation-tool,

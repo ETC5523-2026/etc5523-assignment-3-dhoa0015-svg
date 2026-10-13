@@ -2,10 +2,11 @@ project:
   type: website
 
 website:
-  title: "Assessment - Project"
+  title: "Duc Hoang"
   navbar:
     right:
-      - about.qmd
+      - text: "About me"
+        href: about.qmd
       - icon: github
         href: https://github.com/dhoa0015-svg
   page-footer: 
