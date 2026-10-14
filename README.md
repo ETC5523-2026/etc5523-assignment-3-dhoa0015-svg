@@ -9,4 +9,4 @@
  
 ## Blog
 * The author of this blog is **Duc Hoang**.
-* The URL for this blog is [https://etc5523-2023.github.io/blog-template/](https://etc5523-2023.github.io/blog-template/)
+* The URL for this blog is [https://etc5523-2026.github.io/etc5523-assignment-3-dhoa0015-svg/](https://etc5523-2026.github.io/etc5523-assignment-3-dhoa0015-svg/)
