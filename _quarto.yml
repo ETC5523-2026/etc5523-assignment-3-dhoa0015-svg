@@ -1,13 +1,19 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "blog-template"
+  title: "Duc Hoang"
   navbar:
+    left:
+      - text: "About me"
+        href: about.qmd
+      - text: "Blog"
+        href: blog.qmd
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/dhoa0015-svg
+        aria-label: GitHub profile
 format:
   html:
     theme: cosmo

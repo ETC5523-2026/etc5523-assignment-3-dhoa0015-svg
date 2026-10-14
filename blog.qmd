@@ -1,0 +1,15 @@
+---
+title: "Blog"
+subtitle: "Assessment Report"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, author, title, categories, description, image]
+  categories: unnumbered
+  sort-ui: false
+  filter-ui: true
+toc: false
+page-layout: full
+title-block-banner: false
+---

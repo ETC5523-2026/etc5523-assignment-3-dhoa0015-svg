@@ -1,13 +1,30 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Duc Hoang"
+aliases:
+  - index.html
+image: hduc.JPEG
 about:
   template: jolla
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+I am currently a student in Master of Business Analytics at Monash University. 
+
+Throughout this course, I am building up my data analytics skills by learning new programming languages: R and Python, and by exploring how data is collected, processed and analysed in most practical field. This adds to the skills I already have in SQL, dbt, building datasets and data warehouse engineering.
+
+Before starting my Master's, I had experience as an Auditor. That role put me at the intersection of business and analytics, and taught me to work carefully in demanding, fast-paced environments. I bring that experience into this course and into the future career.
+
+I am taking an intensive study load in Semester 2, and I have had the great opportunity to learn from Dr. Michael Lydeamore and Dr. Fonti Kar, both are amazing lecturers. Unit ETC5523 in particular is helping me sharpen my reporting skills, so that my analysis product is clear, useful and most extensive to readers.
+
+## Contact
+
+<table class="contact-table">
+  <tr>
+    <td><i class="bi bi-github" aria-hidden="true"></i></td>
+    <td><a href="https://github.com/dhoa0015-svg">dhoa0015-svg</a></td>
+  </tr>
+  <tr>
+    <td><i class="bi bi-envelope" aria-hidden="true"></i></td>
+    <td><a href="mailto:dhoa0015@student.monash.edu">dhoa0015@student.monash.edu</a></td>
+  </tr>
+</table>
