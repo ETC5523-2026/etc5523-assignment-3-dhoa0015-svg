@@ -3,6 +3,7 @@ title: "Routine sensors accounted for 75–85% of nitrate variation in three US 
 subtitle: "The same five readings worked in a dryland river, a frozen creek and a suburban stream, but they meant different things in each, so no single model fits all three."
 author: "Duc Hoang"
 date: "2026-10-13"
+categories: [assessment]
 image: cover.jfif
 bibliography: references.bib
 execute:

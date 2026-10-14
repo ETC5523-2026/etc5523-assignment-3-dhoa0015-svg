@@ -1,11 +1,4 @@
-/* ==========================================================================
-   Site theme: "Ocean" palette + Nunito Sans / Lora
-   Palette: coolors.co/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8
-   ========================================================================== */
-
-/* 1. Fonts (this @import must stay the first line of rules in the file)
-   Body: Nunito Sans - rounded and friendly, with clear numbers (5.5, 192, 2,875).
-   Headings: Lora - a warm serif that suits a nature topic and contrasts with the body. */
+/* 1. Fonts (this @import must stay the first line of rules in the file)*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Lora:wght@500;600&display=swap');
 
 /* 2. Palette and colour roles, defined once and reused below */
@@ -226,52 +219,28 @@ div.quarto-post .listing-categories .listing-category {
   color: var(--ocean-900);
 }
 
-/* 10. Blog page: each post as a card with the title above a large cover image */
-.quarto-grid-item.card {
-  border: none;
-  background-color: transparent;
+/* 10. Blog page: each post in a white card with a soft shadow and an orange stripe */
+div.quarto-post {
+  background-color: transparent;       
+  border-bottom: none;                 
+  border-left: 5px solid #FB8500;     
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);   
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.quarto-grid-item .card-body.post-contents {
-  display: contents;   /* lets the title move above the image */
+div.quarto-post:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.20);
 }
 
-.quarto-grid-item .listing-title {
-  order: -1;
-  margin: 0 0 1rem;
+div.quarto-post .listing-title {
   font-family: "Lora", Georgia, serif;
-  font-size: 1.9rem;
   font-weight: 600;
-  line-height: 1.25;
-  color: var(--ocean-800);
 }
 
-.quarto-grid-item p.card-img-top {
-  width: 100%;
-  max-width: none;   /* undo the 70ch reading width set for paragraphs */
-  margin: 0 0 1rem;
-}
-
-.quarto-grid-item .card-img-top img {
-  width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-}
-
-.quarto-grid-item .listing-subtitle {
-  margin-bottom: 0.5rem;
-  font-size: 1.05rem;
-  color: var(--ocean-900);
-}
-
-.quarto-grid-item .card-attribution {
-  font-size: 0.9rem;
-  color: var(--ocean-800);
-}
-
-a.quarto-grid-link:hover .listing-title {
-  color: var(--ocean-700);
-  text-decoration: underline;
+div.quarto-post .thumbnail img {
+  border-radius: 6px;
 }
 
 /* Narrow screens: stack the number cards, shrink titles and cover images */
@@ -280,11 +249,7 @@ a.quarto-grid-link:hover .listing-title {
     grid-template-columns: 1fr;
   }
 
-  .quarto-grid-item .listing-title {
-    font-size: 1.5rem;
-  }
-
-  .quarto-grid-item .card-img-top img {
-    height: 220px !important;   /* overrides the fixed 420px height set inline by Quarto */
+  div.quarto-post {
+    padding: 1rem;
   }
 }

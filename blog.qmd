@@ -1,16 +1,15 @@
 ---
 title: "Blog"
-subtitle: "Data stories for readers who like numbers but aren't specialists"
+subtitle: "Assessment Report"
 listing:
   contents: posts
   sort: "date desc"
-  type: grid
-  grid-columns: 1
-  image-height: 420px
-  fields: [title, subtitle, image, date, author]
-  categories: false
+  type: default
+  fields: [date, author, title, categories, description, image]
+  categories: unnumbered
   sort-ui: false
-  filter-ui: false
+  filter-ui: true
 toc: false
-title-block-banner: true
+page-layout: full
+title-block-banner: false
 ---
