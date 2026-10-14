@@ -1,5 +1,7 @@
 ---
 title: "Duc Hoang"
+aliases:
+  - index.html
 image: hduc.JPEG
 about:
   template: jolla
@@ -12,11 +14,11 @@ about:
 
 I am currently a student in Master of Business Analytics at Monash University. 
 
-Throughout this course, I am building up my data analytics skills by learning new programming languages: R and Python, and by exploring how data is collected, processed and analysed in all practical field. This adds to the skills I already have in SQL, dbt, building datasets and data warehouse engineering.
+Throughout this course, I am building up my data analytics skills by learning new programming languages: R and Python, and by exploring how data is collected, processed and analysed in most practical field. This adds to the skills I already have in SQL, dbt, building datasets and data warehouse engineering.
 
-Before starting my Master's, I had experience as an Auditor. That role put me at the intersection of business and analytics, and taught me to work carefully in demanding, fast-paced environments. I bring that experience into this course and into the future carreer.
+Before starting my Master's, I had experience as an Auditor. That role put me at the intersection of business and analytics, and taught me to work carefully in demanding, fast-paced environments. I bring that experience into this course and into the future career.
 
-I am taking an intensive study load in Semester 2, and I have had the great opportunity to learn from Dr. Micheal Lydeamore and Dr. Fonti Kar, all are amazing lecturers. Unit ETC5523 in particular is helping me sharpen my reporting skills, so that my analysis product is clear, useful and most extensive to readers.
+I am taking an intensive study load in Semester 2, and I have had the great opportunity to learn from Dr. Michael Lydeamore and Dr. Fonti Kar, both are amazing lecturers. Unit ETC5523 in particular is helping me sharpen my reporting skills, so that my analysis product is clear, useful and most extensive to readers.
 
 ## Contact
 

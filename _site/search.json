@@ -2,23 +2,23 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog Template",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!"
+    "text": "In 2018–19 records from three NEON river sites, five standard sensor readings accounted for 75% (Colorado), 83% (Alaska) and 85% (Virginia) of nitrate’s 15-minute variation, against 99% once models added nitrate’s own recent readings.\nThe results come from a study by Kermorvant et al. (2023), published in PLOS ONE, which modelled open data from the US National Ecological Observatory Network, known as NEON. In-stream nitrate analysers are expensive to buy and maintain, while probes for conductivity, dissolved oxygen, temperature, turbidity and water level are cheaper and already standard at many monitoring stations. If those routine readings move closely enough with nitrate, they could stand in for an analyser when it fails and help decide where analysers are needed most. The study set out to test that claim."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Duc Hoang",
     "section": "",
-    "text": "I am currently a student in Master of Business Analytics at Monash University.\nThroughout this course, I am building up my data analytics skills by learning new programming languages: R and Python, and by exploring how data is collected, processed and analysed in all practical field. This adds to the skills I already have in SQL, dbt, building datasets and data warehouse engineering.\nBefore starting my Master’s, I had experience as an Auditor. That role put me at the intersection of business and analytics, and taught me to work carefully in demanding, fast-paced environments. I bring that experience into this course and into the future carreer.\nI am taking an intensive study load in Semester 2, and I have had the great opportunity to learn from Dr. Micheal Lydeamore and Dr. Fonti Kar, all are amazing lecturers. Unit ETC5523 in particular is helping me sharpen my reporting skills, so that my analysis product is clear, useful and most extensive to readers."
+    "text": "I am currently a student in Master of Business Analytics at Monash University.\nThroughout this course, I am building up my data analytics skills by learning new programming languages: R and Python, and by exploring how data is collected, processed and analysed in most practical field. This adds to the skills I already have in SQL, dbt, building datasets and data warehouse engineering.\nBefore starting my Master’s, I had experience as an Auditor. That role put me at the intersection of business and analytics, and taught me to work carefully in demanding, fast-paced environments. I bring that experience into this course and into the future career.\nI am taking an intensive study load in Semester 2, and I have had the great opportunity to learn from Dr. Michael Lydeamore and Dr. Fonti Kar, both are amazing lecturers. Unit ETC5523 in particular is helping me sharpen my reporting skills, so that my analysis product is clear, useful and most extensive to readers."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Assessment Report",
+    "title": "Blog",
     "section": "",
-    "text": "Welcome To My Blog Template\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 18, 2022\n\n\nEmi Tanaka\n\n\n\n\n\nNo matching items"
+    "text": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers\n\n\nThe same five readings worked in a dryland river, a frozen creek and a suburban stream, but they meant different things in each, so no single model fits all three.\n\n\n\nDuc Hoang\n\n\nOct 13, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#contact",
@@ -26,5 +26,96 @@
     "title": "Duc Hoang",
     "section": "Contact",
     "text": "Contact\n\n\n\n\n\n\ndhoa0015-svg\n\n\n\n\n\n\n\ndhoa0015@student.monash.edu"
+  },
+  {
+    "objectID": "posts/welcome/index.html#routine-sensors-did-most-of-the-work",
+    "href": "posts/welcome/index.html#routine-sensors-did-most-of-the-work",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "Routine sensors did most of the work",
+    "text": "Routine sensors did most of the work\n\n\n\n\n\n\n\n\nFigure 1: Routine sensors account for most of nitrate’s variation at all three rivers. Dark: share accounted for by five routine sensors plus a smooth time trend. Light: extra gained by adding nitrate’s own recent readings, which requires a nitrate analyser. Source: Kermorvant et al. (2023), NEON data 2018–19.\n\n\n\n\n\nThe dark bars carry the headline result: five routine readings, together with a smooth trend over time, reproduced three-quarters or more of nitrate’s movement at every site. The light segment is the comparison. Adding nitrate’s own readings from the previous few time steps lifted every model to 99%, but that information exists only where a nitrate analyser is already running. The gap between the dark bar and 99% is therefore what the routine sensors could not supply on their own: 24 percentage points at Arikaree, and 14 to 16 at the other two rivers."
+  },
+  {
+    "objectID": "posts/welcome/index.html#why-the-rivers-rank-differently",
+    "href": "posts/welcome/index.html#why-the-rivers-rank-differently",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "Why the rivers rank differently",
+    "text": "Why the rivers rank differently\nThe ranking in Figure 1 follows how much of the signal the routine sensors carried at each site (Table 1). At Lewis Run all five readings pulled their weight: specific conductance carried the most, more than 15% of the explained variation by the authors’ importance measure, and each of the other four carried 11–14%. At Caribou-Poker Creeks conductance again led, at about 10%. At Arikaree no single sensor reached 5%, and nitrate’s own recent readings did roughly a quarter of the work.\nThe study does not point out a cause for Arikaree’s weaker fit. Two features of the site are plausible contributors are its nitrate is very low, with a median 35 times lower than at Lewis Run, and the river regularly stops flowing in summer, leaving a shorter and patchier record to learn from.\n\n\n\n\nTable 1: The three rivers and what the models found. Nitrate values are medians over each modelled period.\n\n\n\n\n\n\n\n\n\n\n\n\n\nArikaree River\nColorado\nCaribou-Poker Creeks\nAlaska\nLewis Run\nVirginia\n\n\n\n\nThe sites\n\n\nSetting\nSemi-arid grassland and farmland\nSubarctic taiga on permafrost\nPasture and woodland on an urban fringe\n\n\nFlow\nIntermittent; dries in summer\nPerennial; iced over in winter\nPerennial\n\n\nCatchment area\n2,875 km²\n106 km²\n11.9 km²\n\n\nMedian nitrate (µmol/L)\n5.5\n28.4\n192\n\n\nPeriod modelled\nSep 2018 – Dec 2019\nJun 2018 – Oct 2019\nJan 2018 – Dec 2019\n\n\nWhat the models showed\n\n\nStrongest single sensor\nNone above 5%\nConductance (about 10%)\nConductance (over 15%)\n\n\nAs water level rises, nitrate…\n↑ rises (at higher levels)\n↑ tends to rise\n↓ falls\n\n\nAs water warms, nitrate…\n↓ falls slightly\n↑ rises\n↑ rises\n\n\n\n\n\n\n\n\nThe bottom rows of Table 1 explain the five sensors that were useful at one river were useful at all three, but the shape and even the direction of their relationships with nitrate changed. When the water level rose, nitrate tended to rise at Arikaree and Caribou-Poker Creeks but fall at Lewis Run. That pattern is consistent with storm water flushing nitrogen stored in dry soils at Arikaree, and with extra water diluting an already nitrate-rich stream at Lewis Run. Warmer water went with more nitrate in Alaska and Virginia, and slightly less in Colorado. A model fitted at one river would get these directions wrong at another, which is why the authors concluded that no single model was appropriate across the three sites."
+  },
+  {
+    "objectID": "posts/welcome/index.html#why-it-matters-for-river-monitoring",
+    "href": "posts/welcome/index.html#why-it-matters-for-river-monitoring",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "Why it matters for river monitoring",
+    "text": "Why it matters for river monitoring\nNitrate, mostly from fertiliser and wastewater, feeds algal blooms that can strip oxygen from rivers and coastal waters, and its level in drinking water is regulated. Much of a river’s nitrate can move in short pulses during storms and snowmelt, which a monthly grab sample can easily miss. Continuous optical sensors can catch those pulses, but they are costly to run (Rode et al. 2016).\nAcross a semi-arid river, a subarctic creek and a suburban stream, five routine sensors and a time trend accounted for 75–85% of nitrate’s 15-minute variation in 2018–19, and adding nitrate’s own recent readings took every model to 99%. Routine sensors can carry most of the load in tracking a pollutant that moves in pulses and is costly to measure directly. But what their readings mean changes from river to river, so the approach needs a local nitrate record to calibrate against before it can fill in for an analyser."
+  },
+  {
+    "objectID": "posts/welcome/index.html#what-the-numbers-do-and-dont-show",
+    "href": "posts/welcome/index.html#what-the-numbers-do-and-dont-show",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "What the numbers do and don’t show",
+    "text": "What the numbers do and don’t show\n\n“Accounted for” means in-sample fit. The percentages are deviance explained: the share of variation in the observed nitrate series that a fitted model reproduces, measured on the same data used to fit it. The authors did not test the models on new data, so 75–85% is likely to be optimistic as a guide to how well they would predict.\nThe sensors had help from time. Each base model also included a smooth term for time, which captures seasonal patterns and slow trends. The 75–85% belongs to the five sensors and that trend together, not to the sensors alone.\nThe records have gaps. Each site had two years of 15-minute timestamps, but summer drying at Arikaree and winter ice at Caribou-Poker Creeks, when sensors were removed, shortened the usable windows (Table 1). Sensor outages and screened-out anomalies left further gaps, and the paper does not report what share of readings was missing.\nThese are associations, not causes. The study is observational. It shows that nitrate moves with conductance and water level, not that they drive it.\nThree rivers, chosen to differ. The sites were picked to be as unlike one another as possible rather than sampled at random, and all are in the United States. The results show the approach can work in very different settings, not that it will work everywhere.\nA modelling shortcut. Standard software could not fit the full model to roughly 70,000 readings per site, so the authors fitted it in two stages. The smoothness of each curve was therefore chosen before short-term correlation between readings was accounted for, which may shift some of nitrate’s short-term persistence into the time trend."
+  },
+  {
+    "objectID": "posts/welcome/index.html#the-bottom-line",
+    "href": "posts/welcome/index.html#the-bottom-line",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "The bottom line",
+    "text": "The bottom line\nAcross a semi-arid river, a subarctic creek and a suburban stream, five routine sensors and a time trend accounted for 75–85% of nitrate’s 15-minute variation in 2018–19, and adding nitrate’s own recent readings took every model to 99%. Routine sensors can carry most of the load in tracking a pollutant that moves in pulses and is costly to measure directly. But what their readings mean changes from river to river, so the approach needs a local nitrate record to calibrate against before it can fill in for an analyser."
+  },
+  {
+    "objectID": "posts/welcome/index.html#source-and-methods",
+    "href": "posts/welcome/index.html#source-and-methods",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "Source and methods",
+    "text": "Source and methods\n\nStudy. Kermorvant et al. (2023). The values in Figure 1 and Table 1 are taken from the research paper.\nData. NEON aquatic sensor data for Arikaree River (Colorado), Caribou-Poker Creeks (Alaska) and Lewis Run (Virginia), January 2018 to December 2019, extracted by the authors on 29 January 2021 (NEON 2021). Nitrate was measured by a SUNA V2 ultraviolet sensor, each value the mean of 20 readings taken every 15 minutes. The other variables were matched to the nitrate timestamps.\nVariables. Specific conductance, dissolved oxygen, water temperature, turbidity (log scale) and surface water elevation, plus time. Conductivity, fDOM, pH and oxygen saturation were dropped because they were too closely correlated with the others, and chlorophyll-a was dropped for frequent anomalies.\nModel. One model per site. A generalised additive model with thin-plate spline smooths, with terms chosen by stepwise AIC, followed by an autoregressive moving-average (ARMA) model fitted to the residuals to handle the strong correlation between readings 15 minutes apart. Each sensor’s importance was assessed by model comparison."
+  },
+  {
+    "objectID": "index.html#the-story-in-three-numbers",
+    "href": "index.html#the-story-in-three-numbers",
+    "title": "Reading Rivers",
+    "section": "The story in three numbers",
+    "text": "The story in three numbers\n\n  \n    75–85%\n    of nitrate's 15-minute variation accounted for by five routine sensors and a time trend\n  \n  \n    99%\n    once the models also used nitrate's own recent readings, which need a nitrate analyser\n  \n  \n    3 rivers\n    in Colorado, Alaska and Virginia, 2018–19, each needing its own model"
+  },
+  {
+    "objectID": "index.html#about-this-story",
+    "href": "index.html#about-this-story",
+    "title": "Reading Rivers",
+    "section": "About this story",
+    "text": "About this story\n\nThis site follows one question through one dataset: can the routine sensors already installed at many river monitoring stations stand in for an expensive nitrate analyser? The story retells a peer-reviewed study by Kermorvant et al. (2023), which modelled open sensor data from the US National Ecological Observatory Network, for readers who are comfortable with numbers but are not water-quality specialists.\nWritten by Duc Hoang for ETC5523 Communicating with Data at Monash University. Study: Kermorvant et al. (2023), PLOS ONE. Data: NEON Data Portal."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers\n\n\nThe same five readings worked in a dryland river, a frozen creek and a suburban stream, but they meant different things in each, so no single model fits all three.\n\n\n\nDuc Hoang\n\n\nOct 13, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html#routine-sensors-account-for-most-of-the-work",
+    "href": "posts/welcome/index.html#routine-sensors-account-for-most-of-the-work",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "Routine sensors account for most of the work",
+    "text": "Routine sensors account for most of the work\nThe dark bars from Figure 1 carry the headline result about five routine readings, together with a smooth trend over time, reproduced more than three-quarters of nitrate’s movement at every site. The light segment is the comparison. Adding nitrate’s own readings from the previous few time steps lifted every model to 99%. But that information should be comprehend carefully, since it exists only where a nitrate analyser is already running. The gap between the dark bar and 99% is therefore what the routine sensors could not supply on their own: 24 percentage points at Arikaree, and 14 to 16 at the other two rivers.\n\n\n\n\n\n\n\n\nFigure 1: Routine sensors account for most of nitrate’s variation at all three rivers. Dark: share accounted for by five routine sensors plus a smooth time trend. Light: extra gained by adding nitrate’s own recent readings, which requires a nitrate analyser."
+  },
+  {
+    "objectID": "posts/welcome/index.html#for-in-situ-monitoring-managers",
+    "href": "posts/welcome/index.html#for-in-situ-monitoring-managers",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "For in-situ monitoring managers",
+    "text": "For in-situ monitoring managers\nThe study does not justify switching off nitrate analysers, but it does point to a cheaper way of using them:\n\nPilot before changing the network. Pick two or three stations that already run a nitrate analyser alongside the routine sensors, fit a model for each, and check whether the 75–85% holds on your own rivers, ideally on a stretch of data the model has not seen.\nUse routine sensors to fill gaps, not to replace analysers. Where a local model holds up, it can estimate nitrate through analyser outages and maintenance downtime.\nCalibrate every river separately. The five-sensor list is a sound specification for new stations, but never borrow a fitted model from another river."
+  },
+  {
+    "objectID": "posts/welcome/index.html#study-caveats",
+    "href": "posts/welcome/index.html#study-caveats",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "Study caveats",
+    "text": "Study caveats\n\nThe sensors had help from time. Each base model also included a smooth term for time, which captures seasonal patterns and slow trends. The 75–85% belongs to the five sensors and that trend together, not to the sensors alone.\nThe records have gaps. Each site had two years of 15-minute timestamps, but summer drying at Arikaree and winter ice at Caribou-Poker Creeks, when sensors were removed, shortened the usable windows (Table 1). Sensor outages and screened-out anomalies left further gaps, and the paper does not report what share of readings was missing.\nThese are associations, not causes. The study is observational. It shows that nitrate moves with conductance and water level, not that they drive it."
+  },
+  {
+    "objectID": "posts/welcome/index.html#ai-reference",
+    "href": "posts/welcome/index.html#ai-reference",
+    "title": "Routine sensors accounted for 75–85% of nitrate variation in three US rivers",
+    "section": "AI Reference",
+    "text": "AI Reference\n\nI ask AI mostly to help me with computer language: CSS and HTML to design the Website. I ask for the modification in style.css file for Coolers theme and scientific font.\nI also ask AI to help me navigate around navbar and website interaction, how files can interact to produce an intensive website. AI helped me to make the table so that it would convey the most information for blog readers.\nI need AI help for proofreading and reorganize my thoughts on the blog paper as well. I ask AI how to make the cards - like what PowerBI have - which contains crucial points of the report."
   }
 ]

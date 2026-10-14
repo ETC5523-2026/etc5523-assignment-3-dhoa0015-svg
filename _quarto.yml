@@ -4,16 +4,18 @@ project:
 website:
   title: "Duc Hoang"
   navbar:
-    right:
+    left:
       - text: "About me"
         href: about.qmd
+      - text: "Blog"
+        href: blog.qmd
+    right:
       - icon: github
         href: https://github.com/dhoa0015-svg
-  page-footer: 
-    center: "Built with [Quarto](https://quarto.org) · © 2026 Duc Hoang"
+        aria-label: GitHub profile
 format:
   html:
-    theme: [cosmo, custom.scss]
+    theme: cosmo
     css: styles.css
 
 

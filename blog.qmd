@@ -1,0 +1,16 @@
+---
+title: "Blog"
+subtitle: "Data stories for readers who like numbers but aren't specialists"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 1
+  image-height: 420px
+  fields: [title, subtitle, image, date, author]
+  categories: false
+  sort-ui: false
+  filter-ui: false
+toc: false
+title-block-banner: true
+---
