@@ -171,9 +171,3 @@ The study does not justify switching off nitrate analysers, but it does point to
 - **Data.** NEON aquatic sensor data for Arikaree River (Colorado), Caribou-Poker Creeks (Alaska) and Lewis Run (Virginia), January 2018 to December 2019, extracted by the authors on 29 January 2021 [@neon]. Nitrate was measured by a SUNA V2 ultraviolet sensor, each value the mean of 20 readings taken every 15 minutes. The other variables were matched to the nitrate timestamps.
 - **Variables.** Specific conductance, dissolved oxygen, water temperature, turbidity (log scale) and surface water elevation, plus time. Conductivity, fDOM, pH and oxygen saturation were dropped because they were too closely correlated with the others, and chlorophyll-a was dropped for frequent anomalies.
 - **Model.** One model per site. A generalised additive model with thin-plate spline smooths, with terms chosen by stepwise AIC, followed by an autoregressive moving-average (ARMA) model fitted to the residuals to handle the strong correlation between readings 15 minutes apart. Each sensor's importance was assessed by model comparison.
-
-## AI Reference
-
-- I ask AI mostly to help me with computer language: CSS and HTML to design the Website. I ask for the modification in `style.css` file for [Coolers theme](https://coolors.co/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8) and scientific font.
-- I also ask AI to help me navigate around navbar and website interaction, how files can interact to produce an intensive website. AI helped me to make the table so that it would convey the most information for blog readers.
-- I need AI help for proofreading and reorganize my thoughts on the blog paper as well. I ask AI how to make the cards - like what PowerBI have - which contains crucial points of the report. 
